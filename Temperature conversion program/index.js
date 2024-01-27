@@ -8,11 +8,11 @@ function convert(){
     let temp = tempInput.value;
     if (fahrenheit.checked)
     {
-        result.textContent = ((temp * 9/5) + 32).toFixed(2);
+        result.textContent = ((temp * 9/5) + 32).toFixed(2) + "°F";
     }
     else if (celsius.checked)
     {
-        result.textContent = ((temp - 32) * 5/9).toFixed(2);
+        result.textContent = ((temp - 32) * 5/9).toFixed(2) + "°C";
     }
     else
     {
