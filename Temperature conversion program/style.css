@@ -1,0 +1,29 @@
+#submitTempLabel {
+    font-size:1.5em;
+    color: rgba(25, 6, 74, 0.777);
+}
+    
+#submitTemp{
+    align-self: center;
+    text-align: center;
+    font-size: 2em;
+    max-width: 50%;
+    border-radius: 15px;
+    margin-bottom:3%;
+    
+}
+
+.container{
+    text-align: center;
+    max-width: 500px;
+    background-color: gray;
+    border-radius: 10px;
+    border-color: black;
+    border: solid;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.753);
+    height: auto;
+}
+
+#result{
+    font-size: 2em;
+}

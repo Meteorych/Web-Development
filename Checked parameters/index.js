@@ -1,7 +1,6 @@
 let submitButton = document.getElementById("submitButton");
 
 submitButton.onclick = () => {
-    
     let checkProperty =  document.getElementById("myCheckBox");
     if(checkProperty.checked)
     {
